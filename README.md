@@ -6,7 +6,7 @@ What happens when published microbiome knowledge is projected onto human cohort 
 
 Use it to examine a disease pattern as a whole and the individual microbial relations within it. A strong overall pattern can contain both agreement and opposition. Keeping those relations visible helps identify what to investigate next.
 
-[한국어](README_KO.md) · [Input guide](docs/data-format.md) · [How the method works](docs/methods.md) · [Reading the results](docs/interpretation.md)
+[Input guide](docs/data-format.md) · [How the method works](docs/methods.md) · [Reading the results](docs/interpretation.md)
 
 ## From a published direction to a cohort observation
 
