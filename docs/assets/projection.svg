@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="664" viewBox="0 0 520 664" role="img" aria-labelledby="title description">
+  <title id="title">How literature-to-cohort projection works</title>
+  <desc id="description">A literature expectation and an observed abundance state are compared. More abundant with High, or less abundant with Low, contribute plus one. Opposite directions contribute minus one. Neutral abundance or no signed literature direction contributes zero. Participant scores and study-balanced relation shifts provide complementary analyses. All examples are conceptual.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L7 4L0 7" fill="none" stroke="#111" stroke-width="1.2"/></marker>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#111}
+      .heading{font-size:23px;font-weight:700}.label{font-size:18px;font-weight:700}.body{font-size:18px}.small{font-size:16px}
+      .line{stroke:#111;stroke-width:1.2;fill:none}.border{stroke:#ced4d7;stroke-width:1;fill:#fff}
+    </style>
+  </defs>
+  <rect width="520" height="664" fill="#fff"/>
+  <text x="24" y="37" class="heading">Compare directions, not just abundance</text>
+  <rect x="24" y="61" width="222" height="111" rx="5" class="border"/>
+  <rect x="274" y="61" width="222" height="111" rx="5" class="border"/>
+  <text x="42" y="91" class="label">Literature expectation</text>
+  <text x="42" y="121" class="body">More or less abundant</text>
+  <text x="42" y="146" class="body">in a selected disease</text>
+  <text x="292" y="91" class="label">Cohort observation</text>
+  <text x="292" y="121" class="body">State relative to an</text>
+  <text x="292" y="146" class="body">external healthy range</text>
+  <path d="M135 172V195H385V172" class="line"/>
+  <path d="M260 195V216" class="line" marker-end="url(#arrow)"/>
+  <rect x="24" y="223" width="472" height="304" rx="5" class="border"/>
+  <path d="M24 272H496" stroke="#ced4d7" fill="none"/>
+  <text x="42" y="254" class="label">Expected</text><text x="249" y="254" class="label">Observed</text><text x="424" y="254" class="label">Score</text>
+  <g class="body">
+    <text x="42" y="302">More abundant</text><circle cx="258" cy="296" r="6" fill="#e7b7c4" stroke="#111"/><text x="274" y="302">High</text><rect x="417" y="282" width="60" height="28" rx="3" fill="#d3ebe0"/><text x="447" y="302" text-anchor="middle">+1</text>
+    <text x="42" y="343">Less abundant</text><circle cx="258" cy="337" r="6" fill="#b8d6e7" stroke="#111"/><text x="274" y="343">Low</text><rect x="417" y="323" width="60" height="28" rx="3" fill="#d3ebe0"/><text x="447" y="343" text-anchor="middle">+1</text>
+    <text x="42" y="384">More abundant</text><circle cx="258" cy="378" r="6" fill="#b8d6e7" stroke="#111"/><text x="274" y="384">Low</text><rect x="417" y="364" width="60" height="28" rx="3" fill="#f0d7df"/><text x="447" y="384" text-anchor="middle">−1</text>
+    <text x="42" y="425">Less abundant</text><circle cx="258" cy="419" r="6" fill="#e7b7c4" stroke="#111"/><text x="274" y="425">High</text><rect x="417" y="405" width="60" height="28" rx="3" fill="#f0d7df"/><text x="447" y="425" text-anchor="middle">−1</text>
+    <text x="42" y="466">Either direction</text><circle cx="258" cy="460" r="6" fill="#fff" stroke="#111"/><text x="274" y="466">Neutral</text><rect x="417" y="446" width="60" height="28" rx="3" fill="#edf0f2"/><text x="447" y="466" text-anchor="middle">0</text>
+    <text x="42" y="507">No signed direction</text><text x="249" y="507">Any state</text><rect x="417" y="487" width="60" height="28" rx="3" fill="#edf0f2"/><text x="447" y="507" text-anchor="middle">0</text>
+  </g>
+  <text x="24" y="554" class="small">Neutral: within the healthy range or undetected.</text>
+  <path d="M260 572V589" class="line" marker-end="url(#arrow)"/>
+  <text x="260" y="617" text-anchor="middle" class="label">Disease patterns + individual relations</text>
+  <text x="260" y="646" text-anchor="middle" class="small">Conceptual examples · no participant or graph data</text>
+</svg>
