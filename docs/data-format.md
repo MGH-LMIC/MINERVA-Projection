@@ -102,6 +102,4 @@ The three relation-landscape tables (`relation_alignment.csv`, `disease_alignmen
 
 If no task is eligible, the command exits with status 2 and writes the eligibility report and run summary; it does not create scientific estimates. The `reasons` column explains exclusions, including insufficient group size, insufficient external controls or no signed relation on the supplied genus axis.
 
-See [Reading the results](interpretation.md) for the difference between a participant score, a group shift and relation-level agreement.
-
 [Back to the README](../README.md)

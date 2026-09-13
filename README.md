@@ -6,7 +6,7 @@ What happens when published microbiome knowledge is projected onto human cohort 
 
 Use it to examine a disease pattern as a whole and the individual microbial relations within it. A strong overall pattern can contain both agreement and opposition. Keeping those relations visible helps identify what to investigate next.
 
-[Input guide](docs/data-format.md) · [How the method works](docs/methods.md) · [Reading the results](docs/interpretation.md)
+[Input and output guide](docs/data-format.md)
 
 ## From a published direction to a cohort observation
 
@@ -72,7 +72,7 @@ Provide three CSV files:
 
 Include healthy-control studies from the same profiling resource to build an external reference for each target study. Harmonize genus and disease labels across the files before analysis. The default evaluation thresholds are 10 cases, 10 controls from the same study and 100 external reference controls. Relation-landscape summaries require disease support from at least two profiling resources by default; disease-level score associations can use one.
 
-The [input guide](docs/data-format.md) includes the schemas, optional publication exclusions, eligibility rules and execution command. The [methods guide](docs/methods.md) explains the scoring and aggregation choices.
+The [input and output guide](docs/data-format.md) includes the schemas, optional publication exclusions, eligibility rules, execution command and a description of every exported table.
 
 ## Interpreting agreement
 
