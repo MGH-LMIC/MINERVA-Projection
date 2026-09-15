@@ -7,6 +7,7 @@ name = "minerva-projection"
 version = "0.1.0"
 description = "Project user-supplied literature directions onto cohort abundance states"
 requires-python = ">=3.10"
+license = {file = "LICENSE"}
 dependencies = ["numpy>=1.24", "pandas>=2.0", "scipy>=1.10", "statsmodels>=0.14"]
 
 [project.scripts]

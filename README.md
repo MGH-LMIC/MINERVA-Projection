@@ -89,3 +89,7 @@ Organization: [MGH-LMIC](https://github.com/MGH-LMIC/).
 Repository: [MINERVA-Projection](https://github.com/MGH-LMIC/MINERVA-Projection).
 
 Interactively explore the results of this study in [MINERVA Landscape](https://minervabio.org/app/landscape).
+
+## License
+
+The code and documentation in this repository are available under the [MIT License](LICENSE).
