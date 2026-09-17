@@ -1,6 +1,6 @@
 # MINERVA-Projection
 
-**Literature-to-cohort projection for microbiome discovery.**
+**Literature-to-metagenome alignment for microbiome discovery across human diseases.**
 
 What happens when published microbiome knowledge is projected onto human cohort data? MINERVA-Projection turns literature directions into explicit expectations, compares them with observed abundance states, and shows where the two agree or point in opposite directions.
 
@@ -58,8 +58,13 @@ To generate the deterministic example in a different directory:
 
 ```bash
 python -m minerva_projection synthetic --output my_synthetic_inputs
-```
 
+```
+## Tested environment and timings
+
+The synthetic example was tested on Windows 11 Pro (64-bit) with CPython 3.12.14, an Intel Core Ultra 7 155H processor and 31.53 GiB RAM. No GPU was required for this test. Dependency versions are specified in [requirements.txt](requirements.txt).
+
+Package-only installation took **3.79 s**, excluding environment setup and dependency installation or downloads. The synthetic example took **14.20 s**. Both timings were obtained from single measured runs on the system described above.
 ## Analyze your own cohort
 
 Provide three CSV files:
@@ -82,7 +87,7 @@ This repository implements the core projection and association algorithms for us
 
 ## Project
 
-Developed in connection with **A literature-to-cohort framework for microbiome discovery**.
+Developed in connection with **Literature-to-metagenome alignment for microbiome discovery across human diseases**.
 
 Organization: [MGH-LMIC](https://github.com/MGH-LMIC/).
 
